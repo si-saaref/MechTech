@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        section .container {
+            border-radius: 20px;
+            background-color: rgb(233, 227, 227);
+            position: absolute;
+            top: 25%;
+            left: 20%;
+        }
+        .background img{
+            position: absolute;
+            right: 0;
+            width: 60%;
+            background-size: cover;
+            z-index: -1;
+            height: 100vh;
+        }
+        .navbar-brand {
+            position: absolute;
+            top: 13%;
+            left: 21%;
+        }
+        .btn:hover {
+            background-color: #990000;
+            color: snow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <a class="navbar-brand" href="index.html"><img class="w-75"
+            src="https://mechtechidn.com/wp-content/uploads/2021/04/logo-footer-min-1.png" alt=""></a>
+        <div class="container border w-25">
+            <form class="my-4">
+                <div class="form-group">
+                    <label class="mx-3" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="rounded-pill form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted mx-3">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label class="mx-3" for="exampleInputPassword1">Password</label>
+                    <input type="password" class="rounded-pill form-control" id="exampleInputPassword1">
+                </div>
+                <a href="" class="mx-3 mb-3 d-inline-block">Forgot Password?</a>
+                <button type="submit" class="btn border-danger rounded-pill d-block w-100 my-2">Sign In</button>
+                <a href="signup.html" class="text-decoration-none"><button class="btn btn-danger rounded-pill d-block w-100 my-1">Sign Up</button></a>
+            </form>
+        </div>
+    </section>
+
+    <div class="background">
+        <img src="bg-login.png" alt="">
+    </div>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

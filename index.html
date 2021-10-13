@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&family=Proza+Libre:wght@600&family=Spinnaker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- Membuat iklan -->
+    <div class="nav justify-content-center" id="navIklan">
+        <p class="p my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, obcaecati?</p>
+    </div>
+
+    <!-- Membuat Navbar -->
+    <section class="bg-light sticky-top shadow" id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#"><img class="w-50"
+                        src="https://mechtechidn.com/wp-content/uploads/2021/04/logo-footer-min-1.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Class
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">MechTech Fundamental</a>
+                                <a class="dropdown-item" href="#">MechTech Course</a>
+                                <a class="dropdown-item" href="#">MechTech Bootcamp</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Program
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">MecTech Projects</a>
+                                <a class="dropdown-item" href="#">Media Partners</a>
+                                <a class="dropdown-item" href="#">Life at MechTech</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Tentang Kami</a>
+                                <a class="dropdown-item" href="#">Articles</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html"><button class="p-0 m-2 border-dark rounded profile-button"><i class="bi bi-person mx-1 profile"></i></button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <!-- Membuat Jumbotron -->
+    <div class="jumbotron jumbotron-fluid " id="jumbotronHome" >
+        <div class="container">
+            <div class="row align-items-center" style="height: 400px;">
+                <div class="col-6 text-light">
+                    <h2 class="display-4">Hi Future Engineer!</h2>
+                    <h4 class="">Selamat Datang di MechTech Indonesia</h4>
+                    <p class="lead">MechTech Indonesia adalah sebuah startup pelatihan software teknik bagi mahasiswa
+                        teknik untuk mempersiapkan diri menghadapi dunia kerja di era revolusi industri 4.0 dengan
+                        metode pelatihan khusus berbentuk “Project Based Learning”</p>
+                </div>
+                <div class="col-6">
+                    <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/pelatihan-software-teknik-bersama-ahlinya-1-pbcqkh92vp9gq59yenkq3ljo9t116n7oi3rzu6jag4.png"
+                        class="rounded-lg" alt="">
+                </div>
+            </div>
+        </div>
+        <span id="jumbotronBackground"></span>
+    </div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#990000" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,128C672,107,768,85,864,112C960,139,1056,213,1152,234.7C1248,256,1344,224,1392,208L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+    <!-- Membuat section why us -->
+    <div class="section my-5">
+        <div class="container">
+            <h1 class="my-5 text-center" id="judulSection">Why Us</h1>
+            <div class="row justify-content-center my-4">
+                <div class="col col-9 d-flex align-items-center">
+                    <img src="/portfolio/img/thumbs/1.png" class="w-25 mx-3 rounded" alt="">
+                    <p class="mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium sunt omnis
+                        modi provident laboriosam nam repellendus. Repellendus a mollitia blanditiis.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col col-9 d-flex align-items-center flex-row-reverse">
+                    <img src="/portfolio/img/thumbs/2.png" class="w-25 mx-3 rounded" alt="">
+                    <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut aspernatur
+                        quos nobis consectetur. Soluta excepturi officia quam inventore est.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col col-9 d-flex align-items-center">
+                    <img src="/portfolio/img/thumbs/3.png" class="w-25 mx-3 rounded" alt="">
+                    <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut aspernatur
+                        quos nobis consectetur. Soluta excepturi officia quam inventore est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Membuat daftar kelas -->
+    <section class="my-5">
+        <div class="container pb-5 pt-3 border bg-light" id="ourClass">
+            <div class="row">
+                <div class="col m-5">
+                    <h3 id="judulSection">Our Class</h3>
+                    <p>We Already Serve some class for you...</p>
+                    <p>Enroll Now</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <a href="kelasA.html" class="text-secondary text-decoration-none">
+                        <div class="card w-100 p-1" id="cardClass">
+                            <img src="https://i.ytimg.com/vi_webp/QTJ7B7rzQXg/maxresdefault.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted">Mechtech Fundamental Class : Ansys</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="kelasA.html" class="btn border-danger my-3 px-4" id="buttonClass">Get In</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="kelasB.html" class="text-secondary text-decoration-none">
+                        <div class="card w-100 p-1" id="cardClass">
+                            <img src="https://i.ytimg.com/vi_webp/NEIm5cCG9vk/sddefault.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted">Solusi untuk Jago Bikin 3D Design</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="kelasB.html" class="btn border-danger my-3 px-4" id="buttonClass">Get In</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="kelasC.html" class="text-secondary text-decoration-none">
+                        <div class="card w-100 p-1"  id="cardClass">
+                            <img src="https://i.ytimg.com/vi_webp/joilU9m-sNk/sddefault.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted">Mahir Programming dan Olah Data dengan MATLAB!</h5>
+                                <p class="card-text text-muted">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="kelasC.html" class="btn border-danger my-3 px-4" id="buttonClass">Get In</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Partners -->
+    <section class="border my-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center mb-5" id="judulSection">Our Partners</h1>
+                </div>
+            </div>
+            <!-- <div class="carousel" data-flickity='{"autoPlay": true}'>
+                <div class="carousel-cell"><img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/1-pbea1ppl16smd9qbzul2lwxr1ob2dt7uau014962fw.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/2-pbea2v2hdwd8k429acgnnmi16mn7shs14ipe8fgqu4.png" alt=""></div>
+                <div class="carousel-cell"><img src="https://mechtechidn.com/wp-content/uploads/2021/08/3-300x93.png" alt=""></div>
+                <div class="carousel-cell"><img src="https://mechtechidn.com/wp-content/uploads/2021/08/4.png" alt=""></div>
+                <div class="carousel-cell"><img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/5-pbea4arltsc0anz5wgt4yrgdutkejuh9nml3mnc3bw.jpg" alt=""></div>
+            </div> -->
+            <div class="row mt-5">
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item  active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/1-pbea1ppl16smd9qbzul2lwxr1ob2dt7uau014962fw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/2-pbea2v2hdwd8k429acgnnmi16mn7shs14ipe8fgqu4.png" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/3-300x93.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/1-pbea1ppl16smd9qbzul2lwxr1ob2dt7uau014962fw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/2-pbea2v2hdwd8k429acgnnmi16mn7shs14ipe8fgqu4.png" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/3-300x93.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/1-pbea1ppl16smd9qbzul2lwxr1ob2dt7uau014962fw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/2-pbea2v2hdwd8k429acgnnmi16mn7shs14ipe8fgqu4.png" class="" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/3-300x93.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item  active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/5-pbea4arltsc0anz5wgt4yrgdutkejuh9nml3mnc3bw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/8-pbea5f6nznvc5wcgcga3fz97ee16qtxq56mz9jo5wc.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/4.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/5-pbea4arltsc0anz5wgt4yrgdutkejuh9nml3mnc3bw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/8-pbea5f6nznvc5wcgcga3fz97ee16qtxq56mz9jo5wc.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/4.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/5-pbea4arltsc0anz5wgt4yrgdutkejuh9nml3mnc3bw.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/elementor/thumbs/8-pbea5f6nznvc5wcgcga3fz97ee16qtxq56mz9jo5wc.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item active" data-interval="2000">
+                                <img src="https://mechtechidn.com/wp-content/uploads/2021/08/4.png" class="" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membuat footer -->
+    <footer class="bg-dark text-light pt-4 mt-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col">
+                    <a class="navbar-brand mb-4" href="#"><img class="w-75" src="https://mechtechidn.com/wp-content/uploads/2021/04/logo-footer-min-1.png" alt=""></a>
+                    <p class="text-white-50">MechTech Indonesia adalah sebuah startup pelatihan software teknik bagi mahasiswa teknik
+                        untuk mempersiapkan diri menghadapi dunia kerja di era revolusi industri 4.0 dengan metode
+                        pelatihan khusus berbentuk "Project Based Learning"</p>
+                    <p class="text-white-50">Surabaya, Jawa Timur</p>
+                    <ul class="list-unstyled d-flex mt-3">
+                        <li class="m-3"><a href="" class="socialMedia"><i class="bi bi-facebook"></i></a></li>
+                        <li class="m-3"><a href="https://instagram.com/mechtech.idn/" class="socialMedia"><i class="bi bi-instagram"></i></a></li>
+                        <li class="m-3"><a href="https://twitter.com/Mechtech_idn" class="socialMedia"><i class="bi bi-twitter"></i></a></li>
+                        <li class="m-3"><a href="https://www.linkedin.com/company/mechtech-indonesia/" class="socialMedia"><i class="bi bi-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h4>MechTech</h4>
+                    <p>Tentang Kami</p>
+                    <p>Articles</p>
+                    <p>Life at MechTech</p>
+                </div>
+                <div class="col-3">
+                    <h4>Our Program</h4>
+                    <p>MechTech Bootcamp</p>
+                    <p>MechTech Course</p>
+                    <p>MechTech Ansys</p>
+                    <p>MechTech Matlap</p>
+                    <p>MechTech Solidworks</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col border-top">
+                    <p class="text-center p-1">MechTech.idn &copy; | 2021 All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

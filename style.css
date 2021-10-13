@@ -1,0 +1,120 @@
+/* Root */
+#judulSection {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+/* Nav Iklan */
+#navIklan {
+    background-color: rgb(178, 184, 189);
+}
+
+/* Navbar */
+#navbar {
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: 900;
+}
+.profile-button:hover .profile {
+    color: #fffafa;
+}
+.profile-button:hover{
+    background-color: #6c757d;
+}
+
+/* Jumbotron */
+.jumbotron {
+    position: relative;
+}
+
+#jumbotronHome {
+    background-color:transparent;
+}
+#jumbotronBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 75%;
+    z-index: -11;
+    background-color: #990000;
+}
+.jumbotron img {
+    width: 600px;
+}
+.waves {
+    position: absolute;
+    top: 70%;
+    z-index: -1;
+}
+
+/* class */
+#ourClass {
+    border-radius: 4%;
+}
+.card.w-100 img{
+    min-height: 253px;
+}
+#cardClass:hover {
+    border: 2px solid rgb(193, 190, 190);
+    transform: translateY(-4px);
+}
+#buttonClass:hover {
+    background-color: #990000;
+    color: #fffafa;
+}
+
+/* Ouur Partner */
+.carousel {
+    height: 200px;
+}
+.carousel-item img{
+    line-height: 200px;
+    height: 50%;
+}
+
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+footer ul li {
+    font-size: 1.5em;
+}
+.socialMedia {
+    color: rgb(177, 177, 177);
+}
+.socialMedia:hover {
+    transition: .5s;
+    color: red;
+}
+
+
+
+/* Anakan site */
+
+.jumbotron h6 {
+    font-size: 1.2em;
+}
+
+#navContent .nav-link{
+    color: #6c757d;
+}
+#navContent .nav-item:hover .nav-link{
+    background-color: #6c757d;
+    color: snow;
+}
+
+section#silabus{
+    display:none;
+}
+
+#mazaya i {
+    color:papayawhip;
+    font-size: 2em;
+}
+
+#space {
+    min-height: 300px;
+    /* background-color: lightgray; */
+}

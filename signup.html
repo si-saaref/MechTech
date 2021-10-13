@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        section .container {
+            border-radius: 20px;
+            background-color: rgb(233, 227, 227);
+            position: absolute;
+            top: 25%;
+            left: 20%;
+        }
+
+        .background img {
+            position: absolute;
+            right: 0;
+            width: 60%;
+            background-size: cover;
+            z-index: -1;
+            height: 100vh;
+        }
+
+        .navbar-brand {
+            position: absolute;
+            top: 13%;
+            left: 21%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <a class="navbar-brand" href="index.html"><img class="w-75"
+                src="https://mechtechidn.com/wp-content/uploads/2021/04/logo-footer-min-1.png" alt=""></a>
+        <div class="container border w-25">
+            <form class="my-3">
+                <div class="form-group">
+                    <label class="mx-3" for="exampleInputNama1">Username</label>
+                    <input type="text" class="rounded-pill form-control" id="exampleInputNama1" required>
+                </div>
+                <div class="form-group">
+                    <label class="mx-3" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="rounded-pill form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" required>
+                </div>
+                <div class="form-group">
+                    <label class="mx-3" for="exampleInputPassword1">Password</label>
+                    <input type="password" class="rounded-pill form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="form-group form-check mx-3">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1"><small>Saya setuju dengan <a href="#syaratKetentuan" data-toggle="modal" data-target="#syaratKetentuan">Syarat &
+                                Ketentuan</a> dan <a href="" data-toggle="modal" data-target="#kebijakanPrivasi">Kebijakan Privasi</a></small></label>
+                </div>
+                <div class="form-group form-check mx-3">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1"><small>Saya ingin berlangganan Newsletter</small></label>
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill d-block w-100 my-4">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="modal fade" id="syaratKetentuan">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Syarat dan Ketentuan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, odio!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis delectus odit tempora assumenda ex doloremque officiis perferendis aliquam accusamus deserunt?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis architecto sint blanditiis eius sit officiis necessitatibus doloremque libero quae, illum unde assumenda exercitationem expedita facere rem nulla voluptatibus corporis atque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, accusantium.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kebijakanPrivasi">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <h5 class="modal-title">Kebijakan Privasi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione maiores amet. Error impedit, modi omnis distinctio enim suscipit animi sit. Iure, similique doloribus architecto illo quae rem aperiam autem..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="background">
+        <img src="bg-login.png" alt="">
+    </div>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
